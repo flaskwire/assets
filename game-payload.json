@@ -1,0 +1,5 @@
+{
+  "name": "GameXSS",
+  "url": "javascript:alert(document.domain)",
+  "title": "<img src=x onerror=alert('games')>"
+}
