@@ -1,3 +1,4 @@
-{
-  "html": "<script>fetch('https://flaskwire.com/beacon?ts=' + Date.now())</script>"
-}
+<script>
+  console.log("🔥 Executed!");
+  fetch("https://flaskwire.com/beacon?ts=" + Date.now());
+</script>
