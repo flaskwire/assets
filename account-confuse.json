@@ -1,0 +1,8 @@
+{
+  "referrer": "https://flaskwire.github.io/assets/account-confuse.json",
+  "accountFlags": {
+    "underThirteen": false,
+    "ageVerified": true
+  },
+  "storefront": "us"
+}
