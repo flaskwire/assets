@@ -1,1 +1,3 @@
-{ "html": "<img src=x onerror=alert(9)>" }
+{
+  "html": "<script>fetch('https://flaskwire.com/beacon?ts=' + Date.now())</script>"
+}
