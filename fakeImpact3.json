@@ -1,10 +1,4 @@
 {
-  "metricsId": "override",
-  "friendSuggestions": [
-    {
-      "playerId": "hacked_user",
-      "displayName": "<script>alert('owned')</script>",
-      "rank": 0
-    }
-  ]
+  "continuePlaying": "not-an-array",
+  "playerId": 9999999999999999999999999999999999999999999999
 }
