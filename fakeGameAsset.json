@@ -1,0 +1,5 @@
+{
+  "deep_link": "games://play?id=../../../etc/passwd",
+  "referrer": "https://flaskwire.com/fakeGameAsset.json",
+  "asset_name": "HiddenGame"
+}
