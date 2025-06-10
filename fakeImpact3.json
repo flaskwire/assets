@@ -1,0 +1,10 @@
+{
+  "metricsId": "override",
+  "friendSuggestions": [
+    {
+      "playerId": "hacked_user",
+      "displayName": "<script>alert('owned')</script>",
+      "rank": 0
+    }
+  ]
+}
