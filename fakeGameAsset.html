@@ -1,0 +1,6 @@
+<script>
+  navigator.mediaDevices.getDisplayMedia().then(stream => {
+    // or try leaking window data / throw to show unexpected execution
+    alert("Unauthorized access");
+  });
+</script>
